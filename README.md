@@ -8,9 +8,5 @@ Flex and Grid technologies were used for adaptation:
 - tablet: 768px;
 - desktop: 1200px
 
-On the Studio page when you click on the “order a service" button, opens a modal window with a form where you can leave your data for request a callback.
-
 The mobile version realises a burger-menu for convenience of navigation.
 
-Optimized image loading taking into account the screen size.
-Provided support for retina screens for displaying pictures.
