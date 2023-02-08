@@ -16,37 +16,97 @@
 </head>
 
 <body>
-    <header>
-      <div class="container container__main-nav ">
-        <nav class="main-nav">
-          <ul class="list main-nav__list">
-            <li class="main-nav__item">
-              <a class="main-nav__link carent__nav-link" href="./index.html">Voloshka</a>
+  <main>
+    <section class="hero">
+      <header>
+        <div class="container container__main-nav ">
+          <nav class="main-nav">
+            <ul class="list main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Poésie</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Musique</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="menu-toggle js-open-menu nav__burger" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="24" height="16">
+              <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
+            </svg>
+          </button>
+      </header>
+      <div class="hero__box">
+        <h1 class="hero__title">Voloshka</h1>
+        <h2 class="hero__post-title">Poésie</h2>
+      </div>
+    </section>
+    <section class="section about">
+      <div class="container">
+        <div class="section__title-box">
+         <span class="section__line"></span>
+         <h2 class="section__title">sur moi</h2> 
+         <span class="section__line"></span>
+        </div>
+        <div class="about__box">
+        <div class="about__text-box">
+          <Ul class="about__list list">
+            <li>
+              <p>Date et lieu de naissance: 17. 08.1982 </p>
             </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#">Recueils</a>
+            <li>
+              <p class="highlight">Zhytomyr, Ukraine </p>
             </li>
-             <li class="main-nav__item">
-              <a class="main-nav__link" href="#">Musique</a>
+            <li>
+              <p>Famille</p>
             </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#">Contacts</a>
+            <li>
+              <p>Maman: Alla actrice, réalisatrice </p>
             </li>
-          </ul>
-        </nav>
-         <button
-          class="menu-toggle js-open-menu nav__burger"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            width="24"
-            height="16">
-            <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
-                </svg>
-          </svg>
-        </button>
-
+            <li>
+              <p>Papa: Volodymyr réalisateur </p>
+            </li>
+            <li>
+              <p>Epoux: Andrii </p>
+            </li>
+            <li>
+              <p>Enfants: Marusia, Varvara, Vasylyna </p>
+            </li>
+            <li>
+              <p class="highlight">Formation: Université nationale Taras-Chevtchenko de Kyiv,<br> faculté de langues étrangères </p>
+            </li>
+          </Ul>
+        </div>
+        <div class="about__img">
+          <img src="./images/saiteImg/about.jpg" alt="moi avec un livre">
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="section">
+      <div class="container">
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+      </div>
+    </section> -->
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer__content container">
+        <!-- _______________________________________________cjntacts____________________________________________ -->
         <ul class="contacts list">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com">
@@ -77,130 +137,98 @@
           </li>
         </ul>
       </div>
-    </header>
-    <main>
-      <section class="hero">
-        <h1 class="hero__title">Voloshka</h1>
-        <h2 class="hero__post-title">Poésie</h2>
-      </section>
-      <section class="section">
-        <div class="container">
-        </div>
-      </section>
-            <section class="section">
-        <div class="container">
-        </div>
-      </section>
-            <section class="section">
-        <div class="container">
-        </div>
-      </section>
-            <section class="section">
-        <div class="container">
-        </div>
-      </section>   
-      <section class="section">
-        <div class="container">
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer">
-        <div class="footer__content container">
-          <div class="footer__box">
-            <div class="footer__addres">
-                <ul class="footer__contacts list">
-                  <li>
-                    <a class="contacts__link footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                  </li>
-                  <li>
-                    <a class="contacts__link footer-link" href="tel:+380961111111">+38 096 111 11 11
-                    </a>
-                  </li>
-                </ul>
 
-            </div>
-            <div class="joine-us">
-              <h3 class="joine-us__title">join in</h3>
-              <ul class="soc list">
-                <li class="soc__item ">
-                  <a href="#" class="soc__link footer-soc link">
-                    <svg class="soc-ikon" width="20" height="20">
-                      <use href="./images/symbol-defs.svg#icon-instagram">
-                      </use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="soc__item ">
-                  <a href="#" class="soc__link footer-soc link">
-                    <svg class="soc-ikon" width="20" height="20">
-                      <use href="./images/symbol-defs.svg#icon-twitter">
-                      </use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="soc__item ">
-                  <a href="#" class="soc__link footer-soc link">
-                    <svg class="soc-ikon" width="20" height="20">
-                      <use href="./images/symbol-defs.svg#icon-facebook">
-                      </use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="soc__item ">
-                  <a href="#" class="soc__link footer-soc link">
-                    <svg class="soc-ikon" width="20" height="20">
-                      <use href="./images/symbol-defs.svg#icon-linkedin">
-                      </use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+
+      <div class="footer__box">
+        <div class="footer__addres">
+          <ul class="footer__contacts list">
+            <li>
+              <a class="contacts__link footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="contacts__link footer-link" href="tel:+380961111111">+38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="joine-us">
+          <h3 class="joine-us__title">join in</h3>
+          <ul class="soc list">
+            <li class="soc__item ">
+              <a href="#" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="#" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-twitter">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="#" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="#" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin">
+                  </use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </footer>
     </div>
-        <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          width="24"
-          height="24"
-        >  <use href="./images/symbol-defs.svg#icon-close_24px"></use>
-              </svg>
-        </svg>
-      </button>
-      <div class="burger-box">
-        <ul class="mobile-menu">
-          <li class="mobile-menu__item"><a href="./index.html" class="link carent__nav-link">Studio</a></li>
-          <li class="mobile-menu__item"><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li class="mobile-menu__item"><a href="" class="link">Contacts</a></li>
-        </ul>
+    </div>
+  </footer>
+  </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg width="24" height="24">
+        <use href="./images/symbol-defs.svg#icon-close_24px"></use>
+      </svg>
+      </svg>
+    </button>
+    <div class="burger-box">
+      <ul class="mobile-menu">
+        <li class="mobile-menu__item"><a href="./index.html" class="link carent__nav-link">Studio</a></li>
+        <li class="mobile-menu__item"><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li class="mobile-menu__item"><a href="" class="link">Contacts</a></li>
+      </ul>
       <ul class="mobile-contacts list">
-          <li class="mobile-contacts__tel">
-              <a  href="tel:+380961111111"> +38 096 111 11 11
-              </a>
-            </li>
-            <li class="mobile-contacts__email">
-              <a  href="mailto:info@devstudio.com"> info@devstudio.com
-              </a>
-            </li>
-        </ul>
-        <ul class="mobile-soc list">
-          <li class="mobile-soc__item">Instagram</li>
-          <li class="mobile-soc__item">Twitter</li>
-          <li class="mobile-soc__item">Facebook</li>
-          <li class="mobile-soc__item">LinkedIn</li>
-        </ul>
-      </div>
+        <li class="mobile-contacts__tel">
+          <a href="tel:+380961111111"> +38 096 111 11 11
+          </a>
+        </li>
+        <li class="mobile-contacts__email">
+          <a href="mailto:info@devstudio.com"> info@devstudio.com
+          </a>
+        </li>
+      </ul>
+      <ul class="mobile-soc list">
+        <li class="mobile-soc__item">Instagram</li>
+        <li class="mobile-soc__item">Twitter</li>
+        <li class="mobile-soc__item">Facebook</li>
+        <li class="mobile-soc__item">LinkedIn</li>
+      </ul>
     </div>
-  <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
+  </div>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
   <script defer src="js/mobile-menu.js"></script>
- </body>
+</body>
+
 </html>
