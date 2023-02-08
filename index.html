@@ -13,7 +13,12 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   <link rel="stylesheet" href="css/main.min.css">
-</head>
+ <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<link type="module" href="js/slider.js">
+ </head>
 
 <body>
   <main>
@@ -47,13 +52,11 @@
     <section class="section about">
       <div class="container">
         <div class="section__title-box">
-         <span class="section__line"></span>
-         <h2 class="section__title">sur moi</h2> 
-         <span class="section__line"></span>
-        </div>
-        <div class="about__box">
-        <div class="about__text-box">
-          <Ul class="about__list list">
+            <h2 class="section__title">sur moi</h2> 
+         </div>
+        <div class="section__box">
+        <div class="section__text-box">
+          <Ul class="section__list list">
             <li>
               <p>Date et lieu de naissance: 17. 08.1982 </p>
             </li>
@@ -61,7 +64,7 @@
               <p class="highlight">Zhytomyr, Ukraine </p>
             </li>
             <li>
-              <p>Famille</p>
+              <p><span>Famille</span></p>
             </li>
             <li>
               <p>Maman: Alla actrice, réalisatrice </p>
@@ -76,32 +79,176 @@
               <p>Enfants: Marusia, Varvara, Vasylyna </p>
             </li>
             <li>
-              <p class="highlight">Formation: Université nationale Taras-Chevtchenko de Kyiv,<br> faculté de langues étrangères </p>
+              <p class="highlight">Formation: <br>Université nationale Taras-Chevtchenko de Kyiv, <br>faculté de langues étrangères </p>
             </li>
           </Ul>
         </div>
-        <div class="about__img">
+        <div class="section__img">
           <img src="./images/saiteImg/about.jpg" alt="moi avec un livre">
         </div>
         </div>
       </div>
     </section>
-    <!-- <section class="section">
+    <section class="section">
+      <h2 class="visually-hidden">video hear</h2> 
       <div class="container">
+        <div class="video__box">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/8sqySmH_44w" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+           </iframe>
+        </div>
+      </div>
+    </section>
+     <section class="section books">
+      <div class="container">
+        <div class="section__title-box">
+           <h2 class="section__title">Recueils</h2> 
+        </div>
+        <div class="section__box">
+        <div class="section__text-box">
+          <Ul class="section__list list">
+            <li>
+              <p><span>2006</span> “Je ne vois que le soleil” (période de jeuness) </p>
+            </li>
+            <li>
+              <p><span>2009</span> “Courir dans mes rêves” (miniatures poétiques) </p>
+            </li>
+            <li>
+              <p><span>2013 </span>“Pleine lune” poèmes</p>
+            </li>
+            <li>
+              <p><span>2015</span> “Théâtre dans le paradis pourpre” (album avec illustrations de Marusia)</p>
+            </li>
+            <li>
+              <p><span>2017</span> “Les vents” poèmes (illustrations de Alina Haieva) </p>
+            </li>
+            <li>
+              <p><span>2018 </span>“ Twixt” (album photo poétique avec la collaboration du réalisateur Victor Priduvalov) </p>
+            </li>
+            <li>
+              <p><span>2018</span> “Sappho” 10 poèmes à Sappho</p>
+            </li>
+            <li>
+              <p><span>2018</span> Voloshka (1) poèmes </p>
+            </li>
+             <li>
+              <p><span>2019</span> Voloshka (2) poèmes </p>
+            </li>
+             <li>
+              <p><span>2020</span> “Les encres noires” citations avec illustrations de Alina Haieva  </p>
+            </li>
+              <li>
+              <p><span>2022</span> Voloshka (3) poèmes  </p>
+            </li>
+          </Ul>
+        </div>
+        <div class="section__img">
+          <img src="./images/saiteImg/books.jpg" alt="un autographe">
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+    <div class="container" >
+      <div class="gallery__box swiper"">
+        <ul class="gallery__list list swiper-wrapper">
+          <li class="gallery__item">
+          <img
+            class="gallery__imag"
+            src="./images/saiteImg/gallery1.jpg"
+            alt="books"
+          />
+        </li>
+          <li class="gallery__item swiper-slide">
+          <img
+            class="gallery__imag"
+            src="./images/saiteImg/gallery3.jpg"
+            alt="books"
+          />
+        </li>
+        <li class="gallery__item swiper-slide">
+          <img
+            class="gallery__imag"
+            src="./images/saiteImg/gallery4.jpg"
+            alt="books"
+          />
+        </li>
+      </ul>
+    </div>
+      </div>
+    </section>
+        <section class="section">
+      <h2 class="visually-hidden">video hear</h2> 
+      <div class="container">
+        <div class="video__box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Vam9-URrzHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+         <section class="section books">
+      <div class="container">
+        <div class="section__title-box">
+           <h2 class="section__title">Musique</h2> 
+        </div>
+        <div class="section__box">
+        <div class="section__text-box">
+          <Ul class="section__list list">
+            <li>
+              <p><span>Duo “Voloshyna&Bushiko” avec le musicien et compositeur Constant Bushinskyi. </span></p>
+            </li>
+            <li>
+              <p><span>Enregistrement de 4 albums poétiques:</span></p>
+            </li>
+            <li>
+              <p><span>2016 </span>“Zachkalivaet”</p>
+            </li>
+            <li>
+              <p><span>2016</span>“Slow”</p>
+            </li>
+            <li>
+              <p><span>2017</span> “Radio-investigation”</p>
+            </li>
+            <li>
+              <p><span>2017</span>“10 poèmes à Sappho” </p>
+            </li>
+          </Ul>
+          <span>Duo “Autre Silence” avec le musicien, compositeur, bassiste Serhii Radzetskyi.</span>
+          <span>Enregistrement des albums poétiques: </span>
+          <ul>
+            <a href="https://soundcloud.com/user-422134550/sets/magnti?ref=clipboard&p=i&c=0&si=CF5F478B1AC44D9BAFDDD4A9CE2CC454&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <li><p><span>2020 </span>“Magnets”</p>
+              </li>
+            </a>
+            <a href="https://soundcloud.com/user-422134550/sets/nsha-tisha-potyag-2021?ref=clipboard&p=i&c=0&si=8321B0F941DB41869447AF1FD041DA79&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <li><p><span>2021</span> “Train”</p>
+              </li>
+            </a>
+            <a href="https://soundcloud.com/user-422134550/ep-2022?ref=clipboard&p=i&c=0&si=4F5CE4E09DAC4C88B9E08525454CBEBE&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <li><p><span>2022</span> “Tout et rien”</p>
+              </li>
+            </a>
+            <a href="https://soundcloud.com/user-422134550/sets/nsha-tisha-u-poshukakh-pkasso-2022?ref=clipboard&p=i&c=0&si=4DFBCD7D6B5C414DBEFF1F20157CFD5D&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <li><p><span>2023</span> “A la recherche de Picasso”</p>
+              </li>
+            </a>
+            <a href="https://soundcloud.com/user-422134550/sets/autre-silence-a-la-recherche-de-picasso-2022?ref=clipboard&p=i&c=0&si=317B2333DD51449188292794B2A6C7FC&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <li><p><span>2023</span> “A la recherche de Picasso” une version française</p>
+              </li>
+            </a>
+              <li><p>Un moment de poésie, de musique, de théâtre où l’espace et le temps vous enveloppent. </p>
+              </li>
+          </ul>
+        </div>
+        <div class="section__img">
+          <img src="./images/saiteImg/music.jpg" alt="un autographe">
+        </div>
+        </div>
       </div>
     </section>
     <section class="section">
       <div class="container">
       </div>
-    </section>
-    <section class="section">
-      <div class="container">
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-      </div>
-    </section> -->
+    </section> 
   </main>
   <footer>
     <div class="footer">
@@ -225,10 +372,13 @@
       </ul>
     </div>
   </div>
+  </script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>
-  <script defer src="js/mobile-menu.js"></script>
+  <script defer src="js/mobile-menu.js">
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
