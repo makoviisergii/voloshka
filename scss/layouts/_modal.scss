@@ -4,7 +4,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/.modal-bg.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
   transition-property: visibility, opacity;
   transition: var(--timing-function);

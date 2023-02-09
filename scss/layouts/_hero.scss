@@ -60,3 +60,19 @@
   }
 }
 
+.footer-hero {
+    width: 105vw;
+      margin: 0 auto;
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url( /images/saiteImg/fooetr-hero.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      text-align: center;
+
+}
+
+.footer-hero__box {
+  height: 600px;
+}
+

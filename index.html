@@ -19,7 +19,6 @@
 />
 <link type="module" href="js/slider.js">
  </head>
-
 <body>
   <main>
     <section class="hero">
@@ -28,13 +27,13 @@
           <nav class="main-nav">
             <ul class="list main-nav__list">
               <li class="main-nav__item">
-                <a class="main-nav__link" href="#">Poésie</a>
+                <a class="main-nav__link" href="#books">Poésie</a>
               </li>
               <li class="main-nav__item">
-                <a class="main-nav__link" href="#">Musique</a>
+                <a class="main-nav__link" href="#music">Musique</a>
               </li>
               <li class="main-nav__item">
-                <a class="main-nav__link" href="#">Contacts</a>
+                <a class="main-nav__link" href="#contact">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -98,7 +97,7 @@
         </div>
       </div>
     </section>
-     <section class="section books">
+     <section class="section books" id="books">
       <div class="container">
         <div class="section__title-box">
            <h2 class="section__title">Recueils</h2> 
@@ -185,7 +184,7 @@
         </div>
       </div>
     </section>
-    <section class="section musicV&B">
+    <section class="section musicV&B" id ="music">
       <div class="container">
         <div class="section__title-box">
            <h2 class="section__title">Musique</h2> 
@@ -213,13 +212,11 @@
             </li>
         </Ul>
         <div class="soc__item">
-        <a class="soc__link" href="https://soundcloud.com/voloshyna-bushiko?ref=clipboard&p=i&c=0&si=09E6F6F4AC4C4DF386DB5CF4B513FAD3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
-              
-                  <svg class="soc-ikon" width="22" height="20">
-                    <use href="./images/symbol-defs.svg#icon-soundcloud">
-                    </use>
-                  </svg>
-               
+        <a class="soc__link" href="https://soundcloud.com/voloshyna-bushiko?ref=clipboard&p=i&c=0&si=09E6F6F4AC4C4DF386DB5CF4B513FAD3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">      
+        <svg class="soc-ikon" width="22" height="20">
+          <use href="./images/symbol-defs.svg#icon-soundcloud">
+          </use>
+        </svg>  
         </a>
         </div>
         </div>
@@ -359,13 +356,15 @@ Kamyanske (Ukraine)</a>
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section footer-hero">
       <div class="container">
+        <div class="footer-hero__box">
+        </div>
       </div>
     </section> 
   </main>
   <footer>
-    <div class="footer">
+    <div class="footer" id="contact">
       <div class="footer__content container">
       </div>
       <div class="footer__box">
@@ -404,23 +403,7 @@ Kamyanske (Ukraine)</a>
         <div class="joine-us">
           <ul class="soc list">
             <li class="soc__item">
-              <a href="#" class="soc__link">
-                <svg class="soc-ikon" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-instagram">
-                  </use>
-                </svg>
-              </a>
-            </li>
-            <li class="soc__item ">
-              <a href="#" class="soc__link footer-soc link">
-                <svg class="soc-ikon" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-twitter">
-                  </use>
-                </svg>
-              </a>
-            </li>
-            <li class="soc__item ">
-              <a href="#" class="soc__link footer-soc link">
+              <a href="https://www.facebook.com/voloshynakateryna/" class="soc__link">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook">
                   </use>
@@ -428,9 +411,25 @@ Kamyanske (Ukraine)</a>
               </a>
             </li>
             <li class="soc__item ">
-              <a href="#" class="soc__link footer-soc link">
+              <a href="https://www.youtube.com/channel/UCzDmVrVFQS6zVIHfyWmczDw" class="soc__link footer-soc link">
                 <svg class="soc-ikon" width="20" height="20">
-                  <use href="./images/symbol-defs.svg#icon-linkedin">
+                  <use href="./images/symbol-defs.svg#icon-youtube">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="https://instagram.com/katerynavoloshyna?utm_source=ig_profile_share&igshid=9spkcxbkv463" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="https://soundcloud.com/voloshyna-bushiko" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-soundcloud">
                   </use>
                 </svg>
               </a>
@@ -451,26 +450,78 @@ Kamyanske (Ukraine)</a>
     </button>
     <div class="burger-box">
       <ul class="mobile-menu">
-        <li class="mobile-menu__item"><a href="./index.html" class="link carent__nav-link">Studio</a></li>
-        <li class="mobile-menu__item"><a href="./portfolio.html" class="link">Portfolio</a></li>
-        <li class="mobile-menu__item"><a href="" class="link">Contacts</a></li>
+        <li class="mobile-menu__item"><a href="#books" class="link carent__nav-link">Poésie</a></li>
+        <li class="mobile-menu__item"><a href="#music" class="link">Musique</a></li>
       </ul>
-      <ul class="mobile-contacts list">
-        <li class="mobile-contacts__tel">
-          <a href="tel:+380961111111"> +38 096 111 11 11
-          </a>
-        </li>
-        <li class="mobile-contacts__email">
-          <a href="mailto:info@devstudio.com"> info@devstudio.com
-          </a>
-        </li>
-      </ul>
-      <ul class="mobile-soc list">
-        <li class="mobile-soc__item">Instagram</li>
-        <li class="mobile-soc__item">Twitter</li>
-        <li class="mobile-soc__item">Facebook</li>
-        <li class="mobile-soc__item">LinkedIn</li>
-      </ul>
+      <div class="footer__box">
+        <div class="footer__addres">
+        <ul class="contacts list">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-envelope">
+                </use>
+              </svg>
+              <h4 class="contacts__text">voloshynakateryna@gmail.com</h4>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+380677560200">
+              <svg class="contacts__icon" width="16px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-smartphone">
+                </use>
+              </svg>
+              <h4 class="contacts__text">+38 067 75 60 200</h4>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+33695869766">
+              <svg class="contacts__icon" width="16px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-smartphone">
+                </use>
+              </svg>
+              <h4 class="contacts__text">+33 6 95 86 97 66</h4>
+            </a>
+          </li>
+        </ul>
+        </div>
+        <div class="joine-us">
+          <ul class="soc list">
+            <li class="soc__item">
+              <a href="https://www.facebook.com/voloshynakateryna/" class="soc__link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="https://www.youtube.com/channel/UCzDmVrVFQS6zVIHfyWmczDw" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-youtube">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="https://instagram.com/katerynavoloshyna?utm_source=ig_profile_share&igshid=9spkcxbkv463" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item ">
+              <a href="https://soundcloud.com/voloshyna-bushiko" class="soc__link footer-soc link">
+                <svg class="soc-ikon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-soundcloud">
+                  </use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
   </script>

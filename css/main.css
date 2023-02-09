@@ -301,14 +301,17 @@ a {
 }
 
 .contacts {
-  display: none;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 50px;
 }
 @media screen and (min-width: 768px) {
   .contacts {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     gap: 10px;
   }
 }
@@ -415,6 +418,21 @@ a {
   .hero__title {
     font-size: 100px;
   }
+}
+
+.footer-hero {
+  width: 105vw;
+  margin: 0 auto;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/saiteImg/fooetr-hero.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.footer-hero__box {
+  height: 600px;
 }
 
 .section__title-box {
@@ -560,7 +578,10 @@ iframe {
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
-  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/saiteImg/modal-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   z-index: 999;
   transform: translateX(100%);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
