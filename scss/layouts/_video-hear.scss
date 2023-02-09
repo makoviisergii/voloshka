@@ -3,3 +3,18 @@
     align-items: center;
     justify-content: center;
 }
+
+iframe {
+    width: 325px;
+    height: 183px;
+
+    @include tablet {
+    width: 560px;
+    height: 315px;
+    }
+
+    @include desktop {
+        width: 560px;
+        height: 315px;
+    }
+}
