@@ -433,9 +433,7 @@ header {
 }
 
 .footer-hero {
-  height: 100vh;
-  margin: 0 auto;
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/saiteImg/footer-hero.jpeg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/saiteImg/footer-hero-mob.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -444,8 +442,12 @@ header {
 }
 @media screen and (min-width: 768px) {
   .footer-hero {
-    margin: 0 auto;
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/saiteImg/footer-hero.jpeg);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/saiteImg/footer-hero-tab.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-hero {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/saiteImg/footer-hero-desk.jpg);
   }
 }
 

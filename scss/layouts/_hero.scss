@@ -60,19 +60,22 @@ padding: 0px;
 
 
 .footer-hero {
-    height: 100vh;
-      margin: 0 auto;
-      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url( /images/saiteImg/footer-hero.jpeg);
+
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url( /images/saiteImg/footer-hero-mob.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
       text-align: center;
+
       @include tablet {
-          margin: 0 auto;
-          background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(/images/saiteImg/footer-hero.jpeg);
+          background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(/images/saiteImg/footer-hero-tab.jpg);
 
       }
+      @include desktop {
+          background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(/images/saiteImg/footer-hero-desk.jpg);
+      }
+
 
 }
 
