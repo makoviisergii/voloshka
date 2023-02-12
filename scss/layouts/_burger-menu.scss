@@ -46,9 +46,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    padding: 48px 40px;
+    width: 100%;
+    padding: 40px 20px;
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/saiteImg/modal-bg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -66,13 +65,13 @@
 
 .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 15px;
-    color: #fff;
+    top: 10px;
+    left: 85%;
 }
 
 .burger-box {
-    height: 85vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,51 +103,21 @@
 }
 
 .mobile-menu__item a:hover {
-    color: #2196F3;
+    color: #040404;
 }
 
-.mobile-contacts {
-    &__tel>a {
-        display: block;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 1.17;    
-    letter-spacing: 0.02em;
-    color: #2196F3;
+.burger-menu-soc {
+    padding-bottom: 40px;
+    color: #000;
+ }
 
-    margin-bottom: 35px;
-    }
+ .burger-menu-contacts .contacts__link {
+color: var(--title-text-color);
+ }
 
-    &__email>a {
-        display: block;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: #757575;
-    }
-}
+ .burger-menu-contacts .contacts__icon {
+fill : var(--title-text-color)
+ }
 
 
 
-.mobile-soc {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    &__item  {
-        padding: 0 10px;
-        margin-bottom: 10px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.12;
-        letter-spacing: 0.02em;
-        color: #2196F3;
-        border-right: 1px solid rgba(33, 33, 33, 0.2);
-    }
-
-    &__item:last-child{
-        border:none;
-    }
-
-}

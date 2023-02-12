@@ -1,5 +1,6 @@
 .hero {
-  width:105vw;
+padding: 0px;
+  width:100%;
   margin: 0 auto;
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background-mob.jpg);
   background-size: cover;
@@ -8,23 +9,19 @@
   background-attachment: fixed;
   text-align: center;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
+
 
   @media screen and (min-width: 768px) {
-    width: 105vw;
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background-tab.jpg);
   }
  
   @media screen and (min-width: 1200px) {
-    width:105vw;
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background.jpg);
 
   }
 
   &__box {
-    height: 600px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,19 +57,26 @@
   }
 }
 
+
+
 .footer-hero {
-    width: 105vw;
+    height: 100vh;
       margin: 0 auto;
-      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url( /images/saiteImg/fooetr-hero.jpeg);
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url( /images/saiteImg/footer-hero.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
       text-align: center;
+      @include tablet {
+          margin: 0 auto;
+          background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(/images/saiteImg/footer-hero-desc.jpg);
+
+      }
 
 }
 
 .footer-hero__box {
-  height: 600px;
+  height: 700px;
 }
 

@@ -43,6 +43,10 @@ text-decoration: none;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.55;
+@include desktop {
+  font-size: 18px;
+}
+
 }
 
 .highlight {
@@ -54,12 +58,19 @@ line-height: 1.55;
 .section__list li {
   display: inline;
   padding: 5px 0;
+  @include desktop {
+  padding: 7px 0;
+    }
 }
 
 .section__list h4 {
   font-size: 16px;
   font-weight: 700;
+  @include desktop {
+      font-size: 18px;
+    }
 }
+
 
 .section__title-box {
   border-top: 1px solid #000000;

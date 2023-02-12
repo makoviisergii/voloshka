@@ -3,10 +3,15 @@
     align-items: center;
     justify-content: center;
 }
+.video__box img {
+margin: 0 auto;
+}
 
 iframe {
-    width: 325px;
-    height: 183px;
+ display: flex;
+ justify-content: center;
+    width: 425px;
+    height: 238px;
 
     @include tablet {
     width: 560px;
@@ -14,7 +19,7 @@ iframe {
     }
 
     @include desktop {
-        width: 560px;
-        height: 315px;
+        width: 768px;
+        height: 430px;
     }
 }

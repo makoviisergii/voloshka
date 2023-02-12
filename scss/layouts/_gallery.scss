@@ -9,18 +9,16 @@
 .gallery__box {
 
     margin: 0 auto;
-    border-radius: 15px;
-     
-    max-width: 280px;
+    max-width: 450px;
 
    
 
     @include tablet {
   
-    max-width: 700px;
+    max-width: 720px;
     }
     @include desktop {
-     max-width: 1020px;
+     max-width: 750px;
     }
 
 }

@@ -12,398 +12,463 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/main.min.css">
- <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-<link type="module" href="js/slider.js">
- </head>
+</head>
 <body>
   <main>
-    <section class="hero">
-      <header>
+    <!-- ===========header+hero================ -->
+    <section class="section hero">
         <div class="container container__main-nav ">
-          <nav class="main-nav">
-            <ul class="list main-nav__list">
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="#books">Poésie</a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="#music">Musique</a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="#contact">Contacts</a>
-              </li>
-            </ul>
-          </nav>
+          <header>
+            <nav class="main-nav">
+              <ul class="list main-nav__list">
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#books">Poésie</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#music">Musique</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#contact">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            </header>
           <button class="menu-toggle js-open-menu nav__burger" aria-expanded="false" aria-controls="mobile-menu">
             <svg width="24" height="16">
-              <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
+              <use href="./images/symbol-defs.svg#icon-menu_24px">
+              </use>
             </svg>
           </button>
-      </header>
+        </div>
       <div class="hero__box">
         <h1 class="hero__title">Voloshka</h1>
-        <h2 class="hero__post-title">Poésie</h2>
       </div>
     </section>
-    <section class="section about">
+    <!-- =================about============== -->
+     <section class="section about">
       <div class="container">
         <div class="section__title-box">
-            <h2 class="section__title">sur moi</h2> 
-         </div>
-        <div class="section__box">
-        <div class="section__text-box">
-          <Ul class="section__list list">
-            <li>
-              <p>Date et lieu de naissance: 17. 08.1982 </p>
-            </li>
-            <li>
-              <p class="highlight">Zhytomyr, Ukraine </p>
-            </li>
-            <li>
-              <p><h4>Famille</h4></p>
-            </li>
-            <li>
-              <p>Maman: Alla actrice, réalisatrice </p>
-            </li>
-            <li>
-              <p>Papa: Volodymyr réalisateur </p>
-            </li>
-            <li>
-              <p>Epoux: Andrii </p>
-            </li>
-            <li>
-              <p>Enfants: Marusia, Varvara, Vasylyna </p>
-            </li>
-            <li>
-              <p class="highlight">Formation: <br>Université nationale Taras-Chevtchenko de Kyiv, <br>faculté de langues étrangères </p>
-            </li>
-          </Ul>
-        </div>
-        <div class="section__img">
-          <img src="./images/saiteImg/about.jpg" alt="moi avec un livre">
-        </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <h2 class="visually-hidden">video hear</h2> 
-      <div class="container">
-        <div class="video__box">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/8sqySmH_44w" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-           </iframe>
-        </div>
-      </div>
-    </section>
-     <section class="section books" id="books">
-      <div class="container">
-        <div class="section__title-box">
-           <h2 class="section__title">Recueils</h2> 
+          <h2 class="section__title">sur moi</h2>
         </div>
         <div class="section__box">
-        <div class="section__text-box">
-          <Ul class="section__list list">
-            <li>
-              <p><h4>2006</h4> “Je ne vois que le soleil” (période de jeuness) </p>
-            </li>
-            <li>
-              <p><h4>2009</h4> “Courir dans mes rêves” (miniatures poétiques) </p>
-            </li>
-            <li>
-              <p><h4>2013 </h4>“Pleine lune” poèmes</p>
-            </li>
-            <li>
-              <p><h4>2015</h4> “Théâtre dans le paradis pourpre” (album avec illustrations de Marusia)</p>
-            </li>
-            <li>
-              <p><h4>2017</h4> “Les vents” poèmes (illustrations de Alina Haieva) </p>
-            </li>
-            <li>
-              <p><h4>2018 </h4>“ Twixt” (album photo poétique avec la collaboration du réalisateur Victor Priduvalov) </p>
-            </li>
-            <li>
-              <p><h4>2018</h4> “Sappho” 10 poèmes à Sappho</p>
-            </li>
-            <li>
-              <p><h4>2018</h4> Voloshka (1) poèmes </p>
-            </li>
-             <li>
-              <p><h4>2019</h4> Voloshka (2) poèmes </p>
-            </li>
-             <li>
-              <p><h4>2020</h4> “Les encres noires” citations avec illustrations de Alina Haieva  </p>
-            </li>
+          <div class="section__text-box">
+            <Ul class="section__list list">
               <li>
-              <p><h4>2022</h4> Voloshka (3) poèmes  </p>
-            </li>
-          </Ul>
+                <p>Date et lieu de naissance: 17. 08.1982 </p>
+              </li>
+              <li>
+                <p class="highlight">Zhytomyr, Ukraine </p>
+              </li>
+              <li>
+                <p>
+                <h4>Famille</h4>
+                </p>
+              </li>
+              <li>
+                <p>Maman: Alla actrice, réalisatrice </p>
+              </li>
+              <li>
+                <p>Papa: Volodymyr réalisateur </p>
+              </li>
+              <li>
+                <p>Epoux: Andrii </p>
+              </li>
+              <li>
+                <p>Enfants: Marusia, Varvara, Vasylyna </p>
+              </li>
+              <li>
+                <p class="highlight">Formation: <br>Université nationale Taras-Chevtchenko de Kyiv, <br>faculté de
+                  langues étrangères </p>
+              </li>
+            </Ul>
+          </div>
+          <div class="section__img">
+            <img src="./images/saiteImg/about.jpg" alt="moi avec un livre">
+          </div>
         </div>
-        <div class="section__img">
-          <img src="./images/saiteImg/books.jpg" alt="un autographe">
-        </div>
+      </div>
+    </section> 
+     <!-- ==================videi1================ -->
+    <section class="section video1">
+      <h2 class="visually-hidden">video hear</h2>
+      <div class="container">
+        <div class="video__box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8sqySmH_44w" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
-    <section class="section">
-    <div class="container" >
-      <div class="gallery__box swiper"">
-        <ul class="gallery__list list swiper-wrapper">
-          <li class="gallery__item">
-          <img
-            class="gallery__imag"
-            src="./images/saiteImg/gallery1.jpg"
-            alt="books"
-          />
-        </li>
+    <!-- ======================books================= -->
+    <section class="section books" id="books">
+      <div class="container">
+        <div class="section__title-box">
+          <h2 class="section__title">Recueils</h2>
+        </div>
+        <div class="section__box">
+          <div class="section__text-box">
+            <Ul class="section__list list">
+              <li>
+                <p>
+                <h4>2006</h4> “Je ne vois que le soleil” (période de jeuness) </p>
+              </li>
+              <li>
+                <p>
+                <h4>2009</h4> “Courir dans mes rêves” (miniatures poétiques) </p>
+              </li>
+              <li>
+                <p>
+                <h4>2013 </h4>“Pleine lune” poèmes</p>
+              </li>
+              <li>
+                <p>
+                <h4>2015</h4> “Théâtre dans le paradis pourpre” (album avec illustrations de Marusia)</p>
+              </li>
+              <li>
+                <p>
+                <h4>2017</h4> “Les vents” poèmes (illustrations de Alina Haieva) </p>
+              </li>
+              <li>
+                <p>
+                <h4>2018 </h4>“ Twixt” (album photo poétique avec la collaboration du réalisateur Victor Priduvalov)
+                </p>
+              </li>
+              <li>
+                <p>
+                <h4>2018</h4> “Sappho” 10 poèmes à Sappho</p>
+              </li>
+              <li>
+                <p>
+                <h4>2018</h4> Voloshka (1) poèmes </p>
+              </li>
+              <li>
+                <p>
+                <h4>2019</h4> Voloshka (2) poèmes </p>
+              </li>
+              <li>
+                <p>
+                <h4>2020</h4> “Les encres noires” citations avec illustrations de Alina Haieva </p>
+              </li>
+              <li>
+                <p>
+                <h4>2022</h4> Voloshka (3) poèmes </p>
+              </li>
+            </Ul>
+          </div>
+          <div class="section__img">
+            <img src="./images/saiteImg/books.jpg" alt="un autographe">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================gallery================ -->
+    <section class="section gallery">
+      <div class="container">
+        <div class="gallery__box swiper mySwiper"">
+        <ul class=" gallery__list list swiper-wrapper">
           <li class="gallery__item swiper-slide">
-          <img
-            class="gallery__imag"
-            src="./images/saiteImg/gallery3.jpg"
-            alt="books"
-          />
-        </li>
-        <li class="gallery__item swiper-slide">
-          <img
-            class="gallery__imag"
-            src="./images/saiteImg/gallery4.jpg"
-            alt="books"
-          />
-        </li>
-      </ul>
-    </div>
-      </div>
-    </section>
-    <section class="section">
-      <h2 class="visually-hidden">video hear</h2> 
-      <div class="container">
-        <div class="video__box">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Vam9-URrzHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </section>
-    <section class="section musicV&B" id ="music">
-      <div class="container">
-        <div class="section__title-box">
-           <h2 class="section__title">Musique</h2> 
-        </div>
-        <div class="section__box">
-        <div class="section__text-box">
-          <Ul class="section__list list">
-            <li>
-              <p><h4>Duo</h4><a href="https://m.facebook.com/100063618007697/" target="_blank"> “Voloshyna&Bushiko” </a>avec le musicien et compositeur Constant Bushinskyi.</p>
-            </li>
-            <li>
-              <p><h4>Enregistrement de 4 albums poétiques:</h4></p>
-            </li>
-            <li>
-              <p><h4>2016 </h4>“Zachkalivaet”</p>
-            </li>
-            <li>
-              <p><h4>2016</h4>“Slow”</p>
-            </li>
-            <li>
-              <p><h4>2017</h4> “Radio-investigation”</p>
-            </li>
-            <li>
-              <p><h4>2017</h4>“10 poèmes à Sappho” </p>
-            </li>
-        </Ul>
-        <div class="soc__item">
-        <a class="soc__link" href="https://soundcloud.com/voloshyna-bushiko?ref=clipboard&p=i&c=0&si=09E6F6F4AC4C4DF386DB5CF4B513FAD3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">      
-        <svg class="soc-ikon" width="22" height="20">
-          <use href="./images/symbol-defs.svg#icon-soundcloud">
-          </use>
-        </svg>  
-        </a>
-        </div>
-        </div>
-        <div class="section__img">
-          <img src="./images/saiteImg/music.jpg" alt="un autographe">
-        </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <h2 class="visually-hidden">video hear</h2> 
-      <div class="container">
-        <div class="video__box">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/t9MwmJsLv04" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-           </iframe>
-        </div>
-      </div>
-    </section>
-    <section class="section musicAS">
-      <div class="container">
-        <div class="section__title-box">
-        </div>
-        <div class="section__box">
-        <div class="section__text-box">
-          
-          <h4>Duo “Autre Silence” avec le musicien, compositeur, bassiste Serhii Radzetskyi.</h4>
-          <h4>Enregistrement des albums poétiques: </h4>
-          <ul class="list">
-            <h4>2020 </h4>
-            <a href="https://soundcloud.com/user-422134550/sets/magnti?ref=clipboard&p=i&c=0&si=CF5F478B1AC44D9BAFDDD4A9CE2CC454&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-              <li><p>“Magnets”</p>
-              </li>
-            </a>
-            <h4>2021</h4>
-            <a href="https://soundcloud.com/user-422134550/sets/nsha-tisha-potyag-2021?ref=clipboard&p=i&c=0&si=8321B0F941DB41869447AF1FD041DA79&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-              <li><p> “Train”</p>
-              </li>
-            </a>
-            <h4>2022</h4>
-            <a href="https://soundcloud.com/user-422134550/ep-2022?ref=clipboard&p=i&c=0&si=4F5CE4E09DAC4C88B9E08525454CBEBE&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-              <li><p> “Tout et rien”</p>
-              </li>
-            </a>
-            <h4>2023</h4>
-            <a href="https://soundcloud.com/user-422134550/sets/nsha-tisha-u-poshukakh-pkasso-2022?ref=clipboard&p=i&c=0&si=4DFBCD7D6B5C414DBEFF1F20157CFD5D&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-              <li><p> “A la recherche de Picasso”</p>
-              </li>
-            </a>
-            <h4>2023</h4>
-            <a href="https://soundcloud.com/user-422134550/sets/autre-silence-a-la-recherche-de-picasso-2022?ref=clipboard&p=i&c=0&si=317B2333DD51449188292794B2A6C7FC&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"  target="_blank">
-              <li><p> “A la recherche de Picasso” une version française"</p>
-              </li>
-            </a>
-              <li><p>Un moment de poésie, de musique, de théâtre où l’espace et le temps vous enveloppent. </p>
-              </li>
+            <img class="gallery__imag" src="./images/saiteImg/gallery1.jpg" alt="books" />
+          </li>
+          <li class="gallery__item swiper-slide">
+            <img class="gallery__imag swiper-slide" src="./images/saiteImg/gallery2.jpeg" alt="books" />
+          </li>
+          <li class="gallery__item swiper-slide">
+            <img class="gallery__imag swiper-slide" src="./images/saiteImg/gallery3.jpg" alt="books" />
+          </li>
+          <li class="gallery__item swiper-slide">
+            <img class="gallery__imag swiper-slide" src="./images/saiteImg/gallery4.jpg" alt="books" />
+          </li>
+          <li class="gallery__item swiper-slide">
+            <img class="gallery__imag swiper-slide" src="./images/saiteImg/gallery5.jpeg" alt="books" />
+          </li>
           </ul>
         </div>
-        <div class="section__text-box">
-          <div class="video__box">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/n543TpEHncE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-            </iframe>
-          </div>
-        </div>
+      </div>
+    </section> 
+    <!-- ======================video2================= -->
+    <section class="section video2">
+      <h2 class="visually-hidden">video</h2>
+      <div class="container">
+        <div class="video__box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Vam9-URrzHU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
-            <section class="section musicAS">
+    <!-- ==========================musicV&B=============== -->
+    <section class="section musicV&B" id="music">
       <div class="container">
+        <div class="section__title-box">
+          <h2 class="section__title">Musique</h2>
+        </div>
         <div class="section__box">
-        <div class="section__text-box">
-          <div class="video__box">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/gfy-cLgJ1V0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-          </iframe>
+          <div class="section__text-box">
+            <Ul class="section__list list">
+              <li>
+                <p>
+                <h4>Duo</h4><a href="https://m.facebook.com/100063618007697/" target="_blank"> “Voloshyna&Bushiko”
+                </a>avec le musicien et compositeur Constant Bushinskyi.</p>
+              </li>
+              <li>
+                <p>
+                <h4>Enregistrement de 4 albums poétiques:</h4>
+                </p>
+              </li>
+              <li>
+                <p>
+                <h4>2016 </h4>“Zachkalivaet”</p>
+              </li>
+              <li>
+                <p>
+                <h4>2016</h4>“Slow”</p>
+              </li>
+              <li>
+                <p>
+                <h4>2017</h4> “Radio-investigation”</p>
+              </li>
+              <li>
+                <p>
+                <h4>2017</h4>“10 poèmes à Sappho” </p>
+              </li>
+            </Ul>
+            <div class="soc__item">
+              <a class="soc__link"
+                href="https://soundcloud.com/voloshyna-bushiko?ref=clipboard&p=i&c=0&si=09E6F6F4AC4C4DF386DB5CF4B513FAD3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+                <svg class="soc-ikon" width="22" height="20">
+                  <use href="./images/symbol-defs.svg#icon-soundcloud">
+                  </use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="section__img">
+            <img src="./images/saiteImg/music.jpg" alt="un autographe">
           </div>
         </div>
-        <div class="section__text-box">
-          <h4>«Autre Silence»</h4>
-          <ul class="list">
+      </div>
+    </section>
+    <!-- =========================video3================= -->
+    <section class="section video3">
+      <h2 class="visually-hidden">video hear</h2>
+      <div class="container">
+        <div class="video__box">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/t9MwmJsLv04" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section> 
+<!-- ============================musicAS1================= -->
+    <section class="section musicAS1">
+      <div class="container">
+        <div class="section__title-box">
+        </div>
+        <div class="section__box">
+          <div class="section__text-box">
+
+            <h4>Duo “Autre Silence” avec le musicien, compositeur, bassiste Serhii Radzetskyi.</h4>
+            <h4>Enregistrement des albums poétiques: </h4>
+            <ul class="list">
+              <h4>2020 </h4>
+              <a href="https://soundcloud.com/user-422134550/sets/magnti?ref=clipboard&p=i&c=0&si=CF5F478B1AC44D9BAFDDD4A9CE2CC454&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                target="_blank">
+                <li>
+                  <p>“Magnets”</p>
+                </li>
+              </a>
+              <h4>2021</h4>
+              <a href="https://soundcloud.com/user-422134550/sets/nsha-tisha-potyag-2021?ref=clipboard&p=i&c=0&si=8321B0F941DB41869447AF1FD041DA79&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                target="_blank">
+                <li>
+                  <p> “Train”</p>
+                </li>
+              </a>
+              <h4>2022</h4>
+              <a href="https://soundcloud.com/user-422134550/ep-2022?ref=clipboard&p=i&c=0&si=4F5CE4E09DAC4C88B9E08525454CBEBE&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                target="_blank">
+                <li>
+                  <p> “Tout et rien”</p>
+                </li>
+              </a>
+              <h4>2023</h4>
+              <a href="https://soundcloud.com/user-422134550/sets/nsha-tisha-u-poshukakh-pkasso-2022?ref=clipboard&p=i&c=0&si=4DFBCD7D6B5C414DBEFF1F20157CFD5D&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                target="_blank">
+                <li>
+                  <p> “A la recherche de Picasso”</p>
+                </li>
+              </a>
+              <h4>2023</h4>
+              <a href="https://soundcloud.com/user-422134550/sets/autre-silence-a-la-recherche-de-picasso-2022?ref=clipboard&p=i&c=0&si=317B2333DD51449188292794B2A6C7FC&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                target="_blank">
+                <li>
+                  <p> “A la recherche de Picasso” une version française"</p>
+                </li>
+              </a>
+              <li>
+                <p>Un moment de poésie, de musique, de théâtre où l’espace et le temps vous enveloppent. </p>
+              </li>
+            </ul>
+          </div>
+          <div class="section__text-box">
+            <div class="video__box">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/n543TpEHncE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================musicAS2================== -->
+    <section class="section musicAS2">
+      <div class="container">
+        <div class="section__box">
+          <div class="section__text-box">
+            <div class="video__box">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gfy-cLgJ1V0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="section__text-box">
+            <h4>«Autre Silence»</h4>
+            <ul class="list">
               <li><a href="https://youtu.be/018z4wMXdPU" target="_blank">Reportage Kamianske (Ukraine)</a>
-             </li>
-               <li><a href="https://youtu.be/zpNjJhtGwac" target="_blank">Reportage Berdiansk (Ukraine)</a>
-             </li>
-               <li><a href="https://youtu.be/qps5uVOWcj8" target="_blank">Khmelnytsky (Ukraine)</a>
-             </li>
+              </li>
+              <li><a href="https://youtu.be/zpNjJhtGwac" target="_blank">Reportage Berdiansk (Ukraine)</a>
+              </li>
+              <li><a href="https://youtu.be/qps5uVOWcj8" target="_blank">Khmelnytsky (Ukraine)</a>
+              </li>
               <li><a href="https://youtu.be/K7PXuSqZ7bs" target="_blank">Mukatchevo (Ukraine)</a>
-             </li>
-               <li><a href="https://youtu.be/gFKSVvooZ0c" target="_blank">épisode Poltava (Ukraine)</a>
-             </li>
-               <li><a href="https://www.youtube.com/live/AnU0nnd3lfQ?feature=share" target="_blank">Interview Zhytomyr (Ukraine)</a>
-             </li>
-             </li>
-               <li><a href="https://youtu.be/A5fy-d53wp8" target="_blank">Chernihiv (Ukraine)
-               </a>
-             </li>       
-          </ul>
-        </div>
+              </li>
+              <li><a href="https://youtu.be/gFKSVvooZ0c" target="_blank">épisode Poltava (Ukraine)</a>
+              </li>
+              <li><a href="https://www.youtube.com/live/AnU0nnd3lfQ?feature=share" target="_blank">Interview Zhytomyr
+                  (Ukraine)</a>
+              </li>
+              </li>
+              <li><a href="https://youtu.be/A5fy-d53wp8" target="_blank">Chernihiv (Ukraine)
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
-        <section class="section musicV&B">
+    </section> -->
+    <!-- =========================read-more============== -->
+    <!-- <section class="section read-more">
       <div class="container">
         <div class="section__title-box">
-           <h2 class="section__title">En savoir plus</h2> 
+          <h2 class="section__title">En savoir plus</h2>
         </div>
         <div class="section__box">
-        <div class="section__text-box">
-          <ul class="list">
-              <li><a href="https://mala.storinka.org/%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0-%D0%B2%D0%BE%D0%BB%D0%BE%D1%88%D0%B8%D0%BD%D0%B0-%D0%B2%D1%96%D1%80%D1%88%D1%96-%D0%BF%D1%80%D0%BE-%D0%B2%D1%96%D0%B9%D0%BD%D1%83-%D0%B2-%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96-2022.html" target="_blank">les poèmes (publication)</a>
-             </li>
-               <li><a href="https://biblioteka.cdu.edu.ua/index.php/8-novyny/703-refleksiia-voloshky.html" target="_blank">«Les reflections de Voloshka» (article)</a>
-             </li>
-               <li><a href="https://www.poglyad.info/2021/06/11/inshu-tynu-sluhaly-meshkanczi-kamyanskogo-na-konczerti-v-biblioteczi/" target="_blank">reportage après le concert 
-Kamyanske (Ukraine)</a>
-             </li>
-              <li><a href="https://pershij.com.ua/u-mukachevi-prezentuvali-muzichno-poetichniy-performans-duetu-insha-tisha-foto-video/" target="_blank">Mukachevo (Ukraine) reportage </a>
-             </li>
-               <li><a href="http://uc.kr.ua/2020/10/13/insha-tysha-u-kropyvnytskomu/" target="_blank">Kropyvnytskyi (Ukraine)</a>
-             </li>
-               <li><a href="https://ogo.ua/articles/view/2018-03-24/92561.html" target="_blank">Rivne (Ukraine) Pochuty (la langue des signes) </a>
-             </li>
-             </li>
-               <li><a href="https://kyivdaily.com.ua/tag/katya-voloshina/" target="_blank">Kyiv (Ukraine) interview 1
-               </a>
-             </li> 
-             </li>
-               <li><a href="https://images.app.goo.gl/7Bt5Y6xaBwMGWsMP6" target="_blank">Kyiv (Ukraine) interview 2
-               </a>
-             </li>
-                <li><a href="https://mala.storinka.org/%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0-%D0%B2%D0%BE%D0%BB%D0%BE%D1%88%D0%B8%D0%BD%D0%B0-%D0%B2%D1%96%D1%80%D1%88%D1%96-%D0%BF%D1%80%D0%BE-%D0%B2%D1%96%D0%B9%D0%BD%D1%83-%D0%B2-%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96-2022.html" target="_blank">Kyiv (Ukraine) interview 3
-               </a>
-             </li>           
-          </ul>
-        </div>
-        <div class="section__img">
-          <img src="./images/saiteImg/read-more.jpeg" alt="un autographe">
-        </div>
+          <div class="section__text-box">
+            <ul class="list">
+              <li><a
+                  href="https://mala.storinka.org/%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0-%D0%B2%D0%BE%D0%BB%D0%BE%D1%88%D0%B8%D0%BD%D0%B0-%D0%B2%D1%96%D1%80%D1%88%D1%96-%D0%BF%D1%80%D0%BE-%D0%B2%D1%96%D0%B9%D0%BD%D1%83-%D0%B2-%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96-2022.html"
+                  target="_blank">les poèmes (publication)</a>
+              </li>
+              <li><a href="https://biblioteka.cdu.edu.ua/index.php/8-novyny/703-refleksiia-voloshky.html"
+                  target="_blank">«Les reflections de Voloshka» (article)</a>
+              </li>
+              <li><a
+                  href="https://www.poglyad.info/2021/06/11/inshu-tynu-sluhaly-meshkanczi-kamyanskogo-na-konczerti-v-biblioteczi/"
+                  target="_blank">reportage après le concert
+                  Kamyanske (Ukraine)</a>
+              </li>
+              <li><a
+                  href="https://pershij.com.ua/u-mukachevi-prezentuvali-muzichno-poetichniy-performans-duetu-insha-tisha-foto-video/"
+                  target="_blank">Mukachevo (Ukraine) reportage </a>
+              </li>
+              <li><a href="http://uc.kr.ua/2020/10/13/insha-tysha-u-kropyvnytskomu/" target="_blank">Kropyvnytskyi
+                  (Ukraine)</a>
+              </li>
+              <li><a href="https://ogo.ua/articles/view/2018-03-24/92561.html" target="_blank">Rivne (Ukraine) Pochuty
+                  (la langue des signes) </a>
+              </li>
+              </li>
+              <li><a href="https://kyivdaily.com.ua/tag/katya-voloshina/" target="_blank">Kyiv (Ukraine) interview 1
+                </a>
+              </li>
+              </li>
+              <li><a href="https://images.app.goo.gl/7Bt5Y6xaBwMGWsMP6" target="_blank">Kyiv (Ukraine) interview 2
+                </a>
+              </li>
+              <li><a
+                  href="https://mala.storinka.org/%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0-%D0%B2%D0%BE%D0%BB%D0%BE%D1%88%D0%B8%D0%BD%D0%B0-%D0%B2%D1%96%D1%80%D1%88%D1%96-%D0%BF%D1%80%D0%BE-%D0%B2%D1%96%D0%B9%D0%BD%D1%83-%D0%B2-%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96-2022.html"
+                  target="_blank">Kyiv (Ukraine) interview 3
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="section__img">
+            <img src="./images/saiteImg/read-more.jpeg" alt="un autographe">
+          </div>
         </div>
       </div>
     </section>
+   <!-- ==================footer============= -->
     <section class="section footer-hero">
       <div class="container">
         <div class="footer-hero__box">
         </div>
       </div>
-    </section> 
+    </section>
+    <!-- ==================footer============= -->
   </main>
   <footer>
     <div class="footer" id="contact">
       <div class="footer__content container">
-      </div>
       <div class="footer__box">
         <div class="footer__addres">
-        <ul class="contacts list">
-          <li class="contacts__item">
-            <a class="contacts__link" href="mailto:info@devstudio.com">
-              <svg class="contacts__icon" width="16px" height="12px">
-                <use href="./images/symbol-defs.svg#icon-envelope">
-                </use>
-              </svg>
-              <h4 class="contacts__text">voloshynakateryna@gmail.com</h4>
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="tel:+380677560200">
-              <svg class="contacts__icon" width="16px" height="12px">
-                <use href="./images/symbol-defs.svg#icon-smartphone">
-                </use>
-              </svg>
-              <h4 class="contacts__text">+38 067 75 60 200</h4>
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="tel:+33695869766">
-              <svg class="contacts__icon" width="16px" height="12px">
-                <use href="./images/symbol-defs.svg#icon-smartphone">
-                </use>
-              </svg>
-              <h4 class="contacts__text">+33 6 95 86 97 66</h4>
-            </a>
-          </li>
-        </ul>
-
+          <ul class="contacts list">
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:info@devstudio.com"
+              target="_blank">
+                <svg class="contacts__icon" width="16px" height="12px">
+                  <use href="./images/symbol-defs.svg#icon-envelope">
+                  </use>
+                </svg>
+                <h4 class="contacts__text">voloshynakateryna@gmail.com</h4>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:+380677560200" target="_blank">
+                <svg class="contacts__icon" width="16px" height="12px">
+                  <use href="./images/symbol-defs.svg#icon-smartphone">
+                  </use>
+                </svg>
+                <h4 class="contacts__text">+38 067 75 60 200</h4>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:+33695869766" target="_blank">
+                <svg class="contacts__icon" width="16px" height="12px">
+                  <use href="./images/symbol-defs.svg#icon-smartphone">
+                  </use>
+                </svg>
+                <h4 class="contacts__text">+33 6 95 86 97 66</h4>
+              </a>
+            </li>
+          </ul>
         </div>
         <div class="joine-us">
           <ul class="soc list">
             <li class="soc__item">
-              <a href="https://www.facebook.com/voloshynakateryna/" class="soc__link">
+              <a href="https://www.facebook.com/voloshynakateryna/" class="soc__link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook">
                   </use>
@@ -411,7 +476,7 @@ Kamyanske (Ukraine)</a>
               </a>
             </li>
             <li class="soc__item ">
-              <a href="https://www.youtube.com/channel/UCzDmVrVFQS6zVIHfyWmczDw" class="soc__link footer-soc link">
+              <a href="https://www.youtube.com/channel/UCzDmVrVFQS6zVIHfyWmczDw" class="soc__link footer-soc link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-youtube">
                   </use>
@@ -419,7 +484,8 @@ Kamyanske (Ukraine)</a>
               </a>
             </li>
             <li class="soc__item ">
-              <a href="https://instagram.com/katerynavoloshyna?utm_source=ig_profile_share&igshid=9spkcxbkv463" class="soc__link footer-soc link">
+              <a href="https://instagram.com/katerynavoloshyna?utm_source=ig_profile_share&igshid=9spkcxbkv463"
+                class="soc__link footer-soc link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram">
                   </use>
@@ -427,7 +493,7 @@ Kamyanske (Ukraine)</a>
               </a>
             </li>
             <li class="soc__item ">
-              <a href="https://soundcloud.com/voloshyna-bushiko" class="soc__link footer-soc link">
+              <a href="https://soundcloud.com/voloshyna-bushiko" class="soc__link footer-soc link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-soundcloud">
                   </use>
@@ -437,10 +503,10 @@ Kamyanske (Ukraine)</a>
           </ul>
         </div>
       </div>
-    </div>
+      </div>
     </div>
   </footer>
-  </div>
+  <!-- ====================br-memu=============== -->
   <div class="menu-container js-menu-container" id="mobile-menu">
     <button class="menu-toggle js-close-menu">
       <svg width="24" height="24">
@@ -450,45 +516,45 @@ Kamyanske (Ukraine)</a>
     </button>
     <div class="burger-box">
       <ul class="mobile-menu">
-        <li class="mobile-menu__item"><a href="#books" class="link carent__nav-link">Poésie</a></li>
-        <li class="mobile-menu__item"><a href="#music" class="link">Musique</a></li>
+        <li class="mobile-menu__item"><a href="#books" class="link nav-link-books">Poésie</a></li>
+        <li class="mobile-menu__item"><a href="#music" class="link nav-link-music">Musique</a></li>
       </ul>
       <div class="footer__box">
         <div class="footer__addres">
-        <ul class="contacts list">
-          <li class="contacts__item">
-            <a class="contacts__link" href="mailto:info@devstudio.com">
-              <svg class="contacts__icon" width="16px" height="12px">
-                <use href="./images/symbol-defs.svg#icon-envelope">
-                </use>
-              </svg>
-              <h4 class="contacts__text">voloshynakateryna@gmail.com</h4>
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="tel:+380677560200">
-              <svg class="contacts__icon" width="16px" height="12px">
-                <use href="./images/symbol-defs.svg#icon-smartphone">
-                </use>
-              </svg>
-              <h4 class="contacts__text">+38 067 75 60 200</h4>
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="tel:+33695869766">
-              <svg class="contacts__icon" width="16px" height="12px">
-                <use href="./images/symbol-defs.svg#icon-smartphone">
-                </use>
-              </svg>
-              <h4 class="contacts__text">+33 6 95 86 97 66</h4>
-            </a>
-          </li>
-        </ul>
+          <ul class="contacts list burger-menu-contacts">
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:info@devstudio.com" target="_blank">
+                <svg class="contacts__icon" width="16px" height="12px">
+                  <use href="./images/symbol-defs.svg#icon-envelope">
+                  </use>
+                </svg>
+                <h4 class="contacts__text">voloshynakateryna@gmail.com</h4>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:+380677560200">
+                <svg class="contacts__icon" width="16px" height="12px">
+                  <use href="./images/symbol-defs.svg#icon-smartphone">
+                  </use>
+                </svg>
+                <h4 class="contacts__text">+38 067 75 60 200</h4>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:+33695869766">
+                <svg class="contacts__icon" width="16px" height="12px">
+                  <use href="./images/symbol-defs.svg#icon-smartphone">
+                  </use>
+                </svg>
+                <h4 class="contacts__text">+33 6 95 86 97 66</h4>
+              </a>
+            </li>
+          </ul>
         </div>
         <div class="joine-us">
-          <ul class="soc list">
+          <ul class="soc list  burger-menu-soc">
             <li class="soc__item">
-              <a href="https://www.facebook.com/voloshynakateryna/" class="soc__link">
+              <a href="https://www.facebook.com/voloshynakateryna/" class="soc__link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook">
                   </use>
@@ -496,7 +562,7 @@ Kamyanske (Ukraine)</a>
               </a>
             </li>
             <li class="soc__item ">
-              <a href="https://www.youtube.com/channel/UCzDmVrVFQS6zVIHfyWmczDw" class="soc__link footer-soc link">
+              <a href="https://www.youtube.com/channel/UCzDmVrVFQS6zVIHfyWmczDw" class="soc__link footer-soc link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-youtube">
                   </use>
@@ -504,7 +570,8 @@ Kamyanske (Ukraine)</a>
               </a>
             </li>
             <li class="soc__item ">
-              <a href="https://instagram.com/katerynavoloshyna?utm_source=ig_profile_share&igshid=9spkcxbkv463" class="soc__link footer-soc link">
+              <a href="https://instagram.com/katerynavoloshyna?utm_source=ig_profile_share&igshid=9spkcxbkv463"
+                class="soc__link footer-soc link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram">
                   </use>
@@ -512,7 +579,7 @@ Kamyanske (Ukraine)</a>
               </a>
             </li>
             <li class="soc__item ">
-              <a href="https://soundcloud.com/voloshyna-bushiko" class="soc__link footer-soc link">
+              <a href="https://soundcloud.com/voloshyna-bushiko" class="soc__link footer-soc link" target="_blank">
                 <svg class="soc-ikon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-soundcloud">
                   </use>
@@ -530,7 +597,14 @@ Kamyanske (Ukraine)</a>
     crossorigin="anonymous"></script>
   <script defer src="js/mobile-menu.js">
   </script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: true
+    });
+  </script>
+
+</body>
 </html>
