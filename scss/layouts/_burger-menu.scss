@@ -108,15 +108,19 @@
 
 .burger-menu-soc {
     padding-bottom: 100px;
-    color: #000;
+   
  }
 
+.burger-menu-soc .soc-ikon {
+fill: #fff;
+}
+
  .burger-menu-contacts .contacts__link {
-color: var(--title-text-color);
+color: #fff;
  }
 
  .burger-menu-contacts .contacts__icon {
-fill : var(--title-text-color)
+fill : #fff
  }
 
 

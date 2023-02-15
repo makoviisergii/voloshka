@@ -109,6 +109,11 @@ line-height: 1.55;
   flex-direction: column;
   gap: 20px;
 
+  @include tablet {
+    justify-content: center;
+    align-items: center;
+  }
+
 
   @include desktop {
     flex-direction: row;
@@ -117,15 +122,23 @@ line-height: 1.55;
 
 .section__text-box {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  align-items: center;
 
   max-height: 600px;
   max-width: 600px;
-  padding: 30px;
+ 
+
+  @include tablet {
+    max-height: 600px;
+    max-width: 768px;
+    padding: 30px;
+  }
 
   @include desktop {
     justify-content: center;
+    padding: 30px;
+
   }
 }
 
