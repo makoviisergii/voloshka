@@ -400,17 +400,18 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
   .hero {
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background-tab.jpg);
+    background-attachment: fixed;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background.jpg);
+    background-attachment: fixed;
   }
 }
 .hero__box {
