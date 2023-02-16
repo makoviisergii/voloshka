@@ -55,6 +55,7 @@ main {
 }
 
 footer {
+  background-color: var(--primery-bg-color);
   width: 100%;
   margin: 0 auto;
 }
@@ -400,7 +401,7 @@ header {
 }
 .hero::after {
   content: "";
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background-tab.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background-mob.jpg);
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -410,6 +411,18 @@ header {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+@media screen and (min-width: 768px) {
+  .hero::after {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background-tab.jpg);
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero::after {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background.jpg);
+    background-attachment: fixed;
+  }
 }
 .hero__box {
   height: 800px;
@@ -453,7 +466,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   text-align: center;
 }
 @media screen and (min-width: 768px) {

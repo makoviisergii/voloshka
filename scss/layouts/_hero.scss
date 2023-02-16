@@ -37,7 +37,7 @@
               &::after {
                   content: '';
                   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),
-                    url(../images/background-tab.jpg);
+                    url(../images/background-mob.jpg);
                   position: fixed;
                   background-size: cover;
                   background-repeat: no-repeat;
@@ -47,6 +47,16 @@
                   top: 0;
                   bottom: 0;
                   z-index: -1;
+
+                    @media screen and (min-width: 768px) {
+                        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background-tab.jpg);
+                        background-attachment: fixed;
+                      }
+
+                    @media screen and (min-width: 1200px) {
+                        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background.jpg);
+                    background-attachment: fixed;
+                      }
               
                 }
 
@@ -95,7 +105,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+ 
   text-align: center;
 
   @include tablet {
