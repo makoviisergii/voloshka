@@ -1,24 +1,54 @@
-.hero {
-padding: 0px;
-  width:100%;
-  margin: 0 auto;
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
+// .hero {
+// padding: 0px;
+//   width:100%;
+//   margin: 0 auto;
+//   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background3.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   text-align: center;
 
 
 
-  @media screen and (min-width: 768px) {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background-tab.jpg);
-    background-attachment: fixed;
-  }
+//   @media screen and (min-width: 768px) {
+//     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background-tab.jpg);
+//     background-attachment: fixed;
+//   }
  
-  @media screen and (min-width: 1200px) {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background.jpg);
-background-attachment: fixed;
-  }
+//   @media screen and (min-width: 1200px) {
+//     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/background.jpg);
+// background-attachment: fixed;
+//   }
+
+// body {
+
+// }
+
+
+
+
+
+
+.hero {
+  background-color: transparent;
+  padding: 0px;
+      width:100%;
+      margin: 0 auto;
+              &::after {
+                  content: '';
+                  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),
+                    url(../images/background-tab.jpg);
+                  position: fixed;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  left: 0;
+                  right: 0;
+                  top: 0;
+                  bottom: 0;
+                  z-index: -1;
+              
+                }
 
   &__box {
     height: 800px;
