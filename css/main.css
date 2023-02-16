@@ -396,7 +396,7 @@ header {
   padding: 0px;
   width: 100%;
   margin: 0 auto;
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background-mob.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -451,7 +451,7 @@ header {
 }
 
 .footer-hero {
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/saiteImg/footer-hero-mob.jpg);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/saiteImg/footer-hero-mob-3.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
